@@ -38,6 +38,7 @@ section {
 .formTitle {
     font-size: 16px;
     font-weight: bold;
+    text-align: left;
 }
 .formDetails {
     margin-top: 15px;
@@ -66,4 +67,40 @@ input[type="submit"] {
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+}
+
+footer {
+    background: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display: inline-block;
+    color: #fff;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 704px) {   
+
+     .formContainer {
+        float: none;
+        margin: 0 auto;
+     }
 }
